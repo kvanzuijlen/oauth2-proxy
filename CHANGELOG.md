@@ -6,6 +6,22 @@
 
 ## Breaking Changes
 
+
+# V7.5.0
+
+## Release Highlights
+- 🐛 Several bugs have been squashed
+- 🕵️‍♀️ Vulnerabilities have been addressed
+- ⭐️ Added a readiness endpoint to check if the application is ready to receive traffic
+
+## Important Notes
+
+N/A
+
+## Breaking Changes
+
+N/A
+
 ## Changes since v7.4.0
 - [#2028](https://github.com/oauth2-proxy/oauth2-proxy/pull/2028) Update golang.org/x/net to v0.7.0 ato address GHSA-vvpx-j8f3-3w6h
 - [#1873](https://github.com/oauth2-proxy/oauth2-proxy/pull/1873) Fix empty users with some OIDC providers (@babs)
