@@ -1,14 +1,14 @@
 go:
-  - changed-files: '**/*.go'
+  - changed-files: ['**/*.go']
 
 docs:
-  - changed-files: 'docs/**/*'
+  - changed-files: ['docs/**/*']
 
 changelog:
-  - changed-files: 'CHANGELOG.md'
+  - changed-files: ['CHANGELOG.md']
 
 tests:
-  - changed-files: '**/*_test.go'
+  - changed-files: ['**/*_test.go']
 
 provider:
-  - changed-files: 'providers/**/*'
+  - changed-files: ['providers/**/*']
