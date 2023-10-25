@@ -9,3 +9,4 @@ import (
 type RealClientIPParser interface {
 	GetRealClientIP(http.Header) (net.IP, error)
 }
+
